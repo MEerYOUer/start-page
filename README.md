@@ -55,9 +55,11 @@ Notes:
 
                 pm2 monit
 
-    9. Now let's check out the start page. Open up your web browser and navigate to:
+3. Now let's check out the start page. Open up your web browser and navigate to:
 
-            http://localhost:8081/
+        http://localhost:8081/
+
+    Optionally: set it as your homepage.
 
 ### On Linux
 
