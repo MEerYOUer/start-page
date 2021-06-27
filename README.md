@@ -28,7 +28,7 @@ Notes:
 
 ### On Windows 10
 
-*In this tutorial, we're going to create a Scheduled Task that runs on login which will run PM2 and tell it to host our startpage.*
+*In this tutorial we're going to create a Scheduled Task that runs on login which will run PM2 and tell it to host our startpage.*
 
 1. After assuring that the above are installed, download (and extract/unzip) the files from this repo and place them into a directory of your choosing.
 
