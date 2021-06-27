@@ -2,9 +2,7 @@
 
 A single webpage that displays useful links. Meant to be hosted and used on a local machine as a web browser homepage. The page sets the background to a random image from the *public/images/bg* directory on each page load.
 
-## How to Use It
-
-The links are designed to be hardcoded into the HTML. They will need filled in by you--the user--depending on your needs.
+## Requirements
 
 This app requires Node.js and NPM to run. Guides to install them here:
 
@@ -24,7 +22,11 @@ Notes:
 
 2. This webpage was designed for my own devices, it was not designed to fit every screen-size or device. Modify it as needed.
 
+3. The links are designed to be hardcoded into the HTML. They will need filled in by you--the user--depending on your needs.
+
 ---
+
+## How to Use It
 
 ### On Windows 10
 
