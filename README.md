@@ -1,8 +1,6 @@
 # start-page
 
-A single webpage that displays useful links. Meant to be hosted and used on a local machine as a web browser homepage. The page sets the background to a random image from the *public/images/bg* directory on each page load. 
-
-
+A single webpage that displays useful links. Meant to be hosted and used on a local machine as a web browser homepage. The page sets the background to a random image from the *public/images/bg* directory on each page load.
 
 ## How to Use It
 
@@ -20,7 +18,7 @@ This guide will also use the PM2 process manager which can be installed here:
 
 ---
 
-Notes: 
+Notes:
 
 1. The default port is 8081. This can be changed in the *server.js* file.
 
