@@ -1,0 +1,109 @@
+.title {
+	text-align: center;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+    letter-spacing: 1px;
+}
+
+h1 {
+	background-image: url(/images/anim/anim.gif);
+	background-size: cover;
+	color: transparent;
+    background-clip: text;
+	-moz-background-clip: text;
+	-webkit-background-clip: text;
+	text-transform: uppercase;
+	font-size: 100px;
+    line-height: .75;
+    text-shadow: 1.5px 1.5px 1px black;
+    margin-bottom: 100px;
+
+}
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    background-color: #171717;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Share Tech Mono', monospace;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+a {
+    color: #ffffff;
+    text-align: center;
+    border: solid 2px #00000000;
+}
+a:hover {
+    color: #9d3bca !important;
+    text-decoration: none;
+}
+
+hr {
+    width: 100%;
+    margin: 0;
+    border-top: solid 1px #1f1f1f;
+}
+
+.card {
+    min-height: 275px;
+    border: 12px solid black;
+    border-radius: 0 !important;
+    background-color: black;
+    color: #e2e2e2; 
+    transition: .15s ease-in-out;
+    padding: 5px;
+    width: 210px;
+}
+
+.card:hover {
+    /* border-right: 12px solid #1a0b2247;
+    border-top: 12px solid #391d4947;
+    border-left: 12px solid #0f0f0f47;
+    border-bottom: 12px solid #1c0d2547; */
+    border: 6px solid white;
+    box-shadow: 10px 10px #3b0057;
+    transform: translate(-20px, -20px);
+}
+
+.card:hover a {
+    /*color: #ca0f0f; /* asuka */
+    color: #d988ff;
+    transition: .1s ease-in-out;
+}
+
+.card-title {
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    font-size: 18pt;
+}
+
+#content-container {
+    transition: margin-left 2s;
+}
+
+.no-transition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
+}
+
+@media (min-width: 1677px) {
+    #content-container {
+        margin-left: 50%;
+    }
+}
